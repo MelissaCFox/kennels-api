@@ -1,0 +1,98 @@
+{
+    "animals": [
+        {
+            "id": 1,
+            "name": "Doodles",
+            "breed": "Poodle",
+            "customerId": 1,
+            "locationId": 1
+        },
+        {
+            "id": 2,
+            "name": "Moose",
+            "breed": "Border Collie",
+            "customerId": 2,
+            "locationId": 1
+        },
+        {
+            "id": 3,
+            "name": "Charles Poogen",
+            "breed": "Mix",
+            "customerId": 3,
+            "locationId": 1
+        },
+        {
+            "id": 4,
+            "name": "Milo",
+            "breed": "Mix",
+            "customerId": 4,
+            "locationId": 2
+        },
+        {
+            "id": 5,
+            "name": "Carter",
+            "breed": "Scottish Terrier",
+            "customerId": 5,
+            "locationId": 2
+        },
+        {
+            "id": 6,
+            "name": "Stella",
+            "breed": "Poodle",
+            "customerId": 6,
+            "locationId": 2
+        },
+        {
+            "id": 7,
+            "name": "Eddie",
+            "breed": "Poodle",
+            "customerId": 6,
+            "locationId": 2
+        }
+    ],
+    "customers": [
+        {
+            "id": 1,
+            "name": "Hannah Hall",
+            "address": "7002 Chestnut Ct"
+        },
+        {
+            "id": 2,
+            "name": "Melissa Fox",
+            "address": "306 Forest Retreat Rd"
+        },
+        {
+            "id": 3,
+            "name": "Matt Glynn",
+            "address": "15 Olney St"
+        },
+        {
+            "id": 4,
+            "name": "Danielle Berthold",
+            "address": "1834 New Shackle Island Dr"
+        },
+        {
+            "id": 5,
+            "name": "Michael Fox",
+            "address": "15123 Oxford Hollow Rd"
+        },
+        {
+            "id": 6,
+            "name": "Bill Bacon",
+            "address": "306 Wendover Hill Ct"
+        }
+    ],
+    "employees": [],
+    "locations": [
+        {
+            "id": 1,
+            "name": "Nashville North",
+            "address": "8422 Johnson Pike"
+        },
+        {
+            "id": 2,
+            "name": "Nashville South",
+            "address": "209 Emory Drive"
+        }
+    ]
+}
