@@ -1,98 +1,136 @@
 {
-    "animals": [
-        {
-            "id": 1,
-            "name": "Doodles",
-            "breed": "Poodle",
-            "customerId": 1,
-            "locationId": 1
-        },
-        {
-            "id": 2,
-            "name": "Moose",
-            "breed": "Border Collie",
-            "customerId": 2,
-            "locationId": 1
-        },
-        {
-            "id": 3,
-            "name": "Charles Poogen",
-            "breed": "Mix",
-            "customerId": 3,
-            "locationId": 1
-        },
-        {
-            "id": 4,
-            "name": "Milo",
-            "breed": "Mix",
-            "customerId": 4,
-            "locationId": 2
-        },
-        {
-            "id": 5,
-            "name": "Carter",
-            "breed": "Scottish Terrier",
-            "customerId": 5,
-            "locationId": 2
-        },
-        {
-            "id": 6,
-            "name": "Stella",
-            "breed": "Poodle",
-            "customerId": 6,
-            "locationId": 2
-        },
-        {
-            "id": 7,
-            "name": "Eddie",
-            "breed": "Poodle",
-            "customerId": 6,
-            "locationId": 2
-        }
-    ],
-    "customers": [
-        {
-            "id": 1,
-            "name": "Hannah Hall",
-            "address": "7002 Chestnut Ct"
-        },
-        {
-            "id": 2,
-            "name": "Melissa Fox",
-            "address": "306 Forest Retreat Rd"
-        },
-        {
-            "id": 3,
-            "name": "Matt Glynn",
-            "address": "15 Olney St"
-        },
-        {
-            "id": 4,
-            "name": "Danielle Berthold",
-            "address": "1834 New Shackle Island Dr"
-        },
-        {
-            "id": 5,
-            "name": "Michael Fox",
-            "address": "15123 Oxford Hollow Rd"
-        },
-        {
-            "id": 6,
-            "name": "Bill Bacon",
-            "address": "306 Wendover Hill Ct"
-        }
-    ],
-    "employees": [],
-    "locations": [
-        {
-            "id": 1,
-            "name": "Nashville North",
-            "address": "8422 Johnson Pike"
-        },
-        {
-            "id": 2,
-            "name": "Nashville South",
-            "address": "209 Emory Drive"
-        }
-    ]
+  "animals": [
+    {
+      "id": 1,
+      "name": "Doodles",
+      "breed": "Poodle",
+      "customerId": 1,
+      "locationId": 1
+    },
+    {
+      "id": 2,
+      "name": "Moose",
+      "breed": "Border Collie",
+      "customerId": 2,
+      "locationId": 1
+    },
+    {
+      "id": 3,
+      "name": "Charles Poogen",
+      "breed": "Mix",
+      "customerId": 3,
+      "locationId": 1
+    },
+    {
+      "id": 4,
+      "name": "Milo",
+      "breed": "Mix",
+      "customerId": 4,
+      "locationId": 2
+    },
+    {
+      "id": 5,
+      "name": "Linda",
+      "breed": "Yellow Lab",
+      "customerId": 5,
+      "locationId": 2
+    },
+    {
+      "id": 6,
+      "name": "Stella",
+      "breed": "Poodle",
+      "customerId": 6,
+      "locationId": 2
+    },
+    {
+      "id": 7,
+      "name": "Eddie",
+      "breed": "Poodle",
+      "customerId": 6,
+      "locationId": 2
+    }
+  ],
+  "customers": [
+    {
+      "id": 1,
+      "name": "Hannah Hall",
+      "address": "7002 Chestnut Ct",
+      "email": "hannah@hall.com"
+    },
+    {
+      "id": 2,
+      "name": "Melissa Fox",
+      "address": "306 Forest Retreat Rd",
+      "email": "melissa@fox.com"
+    },
+    {
+      "id": 3,
+      "name": "Matt Glynn",
+      "address": "15 Olney St",
+      "email": "matt@glynn.com"
+    },
+    {
+      "id": 4,
+      "name": "MJ Foletta",
+      "address": "1834 New Shackle Island Dr",
+      "email": "mj@foletta.com"
+    },
+    {
+      "id": 5,
+      "name": "Michael Fox",
+      "address": "15123 Oxford Hollow Rd",
+      "email": "michael@fox.com"
+    },
+    {
+      "id": 6,
+      "name": "Bill Bacon",
+      "address": "306 Wendover Hill Ct",
+      "email": "bill@bacon.com"
+    },
+    {
+      "name": "Grace Fox",
+      "address": "306 Forest Retreat Rd",
+      "email": "grace@fox.com",
+      "id": 7
+    }
+  ],
+  "employees": [
+    {
+      "id": 1,
+      "name": "Jeremy Bakker",
+      "locationId": 1
+    },
+    {
+      "id": 2,
+      "name": "Harold Staar",
+      "locationId": 1
+    },
+    {
+      "id": 3,
+      "name": "Wanda Nona",
+      "locationId": 2
+    },
+    {
+      "id": 41,
+      "name": "Cady Leo",
+      "locationId": 2
+    }
+  ],
+  "locations": [
+    {
+      "id": 1,
+      "name": "Nashville North",
+      "address": "8422 Johnson Pike"
+    },
+    {
+      "id": 2,
+      "name": "Nashville South",
+      "address": "209 Emory Drive"
+    },
+    {
+      "name": "Nashville West",
+      "address": "1806 Charlotte Pike",
+      "id": 3
+    }
+  ]
 }
